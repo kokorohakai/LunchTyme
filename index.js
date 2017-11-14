@@ -4,22 +4,6 @@
 */
 import React from 'react';
 import ReactDOM from 'react-dom';
-/*
-I tried using ReactDrawer, but when imported, there's a ton of 
-compile errors. It's possible it doesn't work due to version
-differences.
-
-I imagine Bottle Rocket has specific versions of everything they have 
-decided to use. So I will do this for now using css3 animations.
-
-//import ReactDrawer from 'react-drawer';
-//import 'react-drawer/lib/react-drawer.css';
-
-
-I made an attempt at using react-controllables to center the map 
-on point click. Maybe there's something I'm not understanding about 
-it, because it just wasn't working.
-*/
 
 import "./css/index.css";
 
