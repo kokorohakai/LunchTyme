@@ -21,10 +21,6 @@ class RestaurantList extends React.Component {
 		this.windowResize = this.windowResize.bind(this);
 	}
 
-	componentWillUnmount(){
-		//this.removeEventListener('resize');
-	}
-
 	componentDidMount(){
 		this.windowResize();
 		window.addEventListener( 'resize', this.windowResize );
@@ -220,6 +216,7 @@ class Map extends React.Component {
 		);
 	}
 }
+
 
 
 class MapView extends React.Component {
