@@ -5,27 +5,28 @@ Dependancies:
 	create-react-app
 	google-maps-react
 
-Running:
+# Running:
 
-	create a new react-app with:
+create a new react-app with:
 
-		create-react-app LunchTyme
+	create-react-app LunchTyme
 
-	Download this source could and place files in the folder 'src':
+Download this source could and place files in the folder 'src':
 
-		cd LunchTyme
-		rm -rf src\
-		git clone git@github.com:kokorohakai/LunchTyme.git src
+	cd LunchTyme
+	rm -rf src\
+	git clone git@github.com:kokorohakai/LunchTyme.git src
 
-	Execute with:
-	
-		npm start
+Execute with:
+
+	npm start
 
 
-
+# description
 This is a basic React Example.
 
 
+# issues
 I tried using ReactDrawer, but when imported, there's a ton of 
 compile errors. It's possible it doesn't work due to version
 differences. For now it uses css3 animations.
