@@ -6,15 +6,19 @@ Dependancies:
 	google-maps-react
 
 Running:
+
 	create a new react-app with:
+
 		create-react-app LunchTyme
 
 	Download this source could and place files in the folder 'src':
+
 		cd LunchTyme
 		rm -rf src\
 		git clone git@github.com:kokorohakai/LunchTyme.git src
 
 	Execute with:
+	
 		npm start
 
 
